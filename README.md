@@ -30,6 +30,20 @@ Prever o preço de venda de imóveis com base em características estruturais us
 * Random Forest: ~17.000 MAE
 * XGBoost: ~15.000 MAE
 
+## 💡 Insight
+
+As variáveis mais correlacionadas com o preço dos imóveis foram:
+
+- OverallQual
+- GrLivArea
+- GarageCars
+
+Isso indica que a qualidade geral da construção e a área habitável são os principais fatores que influenciam o preço.
+
+Além disso, a transformação logarítmica do target ajudou a reduzir a assimetria dos dados, melhorando a performance dos modelos.
+
+Isso pode ajudar corretores e investidores a entender melhor quais características impactam mais no valor de um imóvel.
+
 ## 🚀 Como executar
 
 ```bash
